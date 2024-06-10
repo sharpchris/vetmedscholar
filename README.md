@@ -1,1 +1,2 @@
-# vetmedscholar
+# Vet Med AI Scholar - Chatbot Project
+

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Experiment 1</title>
+        <style>
+            body {
+                background: #ececec;  
+            }
+
+            .chatbotWrapper {
+                position: relative;
+                padding-bottom: 56.25%; /* 16:9 */
+                padding-top: 25px;
+                height: 0;
+            }
+            .chatbotWrapper iframe {
+                position: absolute;
+                top: 15px;
+
+                width:100%;
+                height: 100%;
+                border: 0px;
+                border-radius: 5px;
+            }
+
+            @media screen and (min-width: 750px) {
+                .chatbotWrapper {
+                    max-width: 600px;
+                    margin: 0 auto;
+                }  
+                .chatbotWrapper iframe {
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>(We can customize the page by adding a title, instructions, different page background, etc. if you'd like.)</h2>
+        <div class="chatbotWrapper">
+            <iframe id="chatbotkit-frame" src="https://static.chatbotkit.com/integrations/widget/clx937jy10e6j145scyou4aiu/frame"></iframe>
+        </div>
+    </body>
+</html>
